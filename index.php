@@ -22,7 +22,9 @@
             </form>
         </div>
         <?php
-            
+            for($i=0; $i<20; $i++){
+                echo '<div class="block"><div ><span>BLOQUE</span></div></div>';
+            }
         ?>
     </body>
 </html>
